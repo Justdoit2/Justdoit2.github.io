@@ -1,5 +1,5 @@
 <?php
-    if(isset($_REQUEST['btn']) {
+    if(isset($_REQUEST['btn'])) {
     $conn = oci_connect('aniu@db11g','Damnright1','//dbserver.engr.scu.edu/db11g');
     if($conn) {
         print "<br> Success.";
