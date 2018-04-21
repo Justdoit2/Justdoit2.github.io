@@ -1,4 +1,5 @@
 <?php
+    if(isset($_REQUEST['btn']) {
     $conn = oci_connect('aniu@db11g','Damnright1','//dbserver.engr.scu.edu/db11g');
     if($conn) {
         print "<br> Success.";
@@ -14,4 +15,6 @@
         oci_execute($stid);
         oci_free_statement($stid);
         oci_close($conn);
+    }
+       
 ?>
